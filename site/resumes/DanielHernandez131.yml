@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: Hernández Tamayo
+    
+    # Define yourself in 4-5 words
+    motto: I like to dream of fantastic worlds
+    
+    # Focus
+    focus: I'm a perfeccionist
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Video game designer and developer with the skills to carry out the gamification, art and programming activities necessary for the conceptualization, prototyping and testing of video games. I have great creativity and attention to detail.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4E35AQETDavqpdGXVg/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1736962158778?e=1759942800&v=beta&t=4CHV-TUoMdhtETPmN-WZMPJZMLC_pX1rWCzua_fYHF8
+
+    # Contact Information
+    email: d.hernandezt.96@gmail.com #optional
+    phone: +34 675 030 067 #optional
+    website:  #optional
+    linkedin: Daniel Hernández Tamayo #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DanielHernandez131
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B2
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Cinema
+
+      - item: Board games
+
+      - item: Video games
+
+# Your previous education
+education:
+    - degree: Video Game Design and Development degree
+      university: Universidad Rey Juan Carlos
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2018 - 2025
+      details: |
+        Video game engineering with design overtones
+
+          - Engineering
+          - Design
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Level designer & QA tester
+      time: January - June 2024
+      company: Gamera nest
+      # optional
+      company_logo: https://i0.wp.com/gammeranest.com/wp-content/uploads/2021/12/NUEVO-LOGO-GAMMERA-PARA-WEB.png?w=2041&ssl=1
+      details: |
+        Support in narrative design and incorporation of game mechanics into the story.
+
+          - Unity
+          - Level design
+          - QA tester
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Under construction.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+skills:
+    toolset:
+      - name: Python
+        level: 85%
+
+      - name: JavaScript & jQuery
+        level: 90%
+
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: C# & Unity
+        level: 95%
+
+      - name: Sketch & Photoshop
+        level: 95%
